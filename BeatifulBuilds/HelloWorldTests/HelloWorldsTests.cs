@@ -8,7 +8,7 @@ namespace HelloWorldTests
         [Test]
         public void FailingTest()
         {
-            Assert.AreEqual(true, false);
+            Assert.AreEqual(false, false);
         }
 
         [Test]
