@@ -1,4 +1,4 @@
 BeautifulBuilds
 ===============
 
-Project for explration of TeamCity capabilities and features.
+Project for exploration of TeamCity capabilities and features.
