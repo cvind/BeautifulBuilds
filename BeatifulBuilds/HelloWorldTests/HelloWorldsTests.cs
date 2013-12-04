@@ -3,22 +3,22 @@
 namespace HelloWorldTests
 {
     [TestFixture]
-    class HelloWorldsTests
+    public class HelloWorldsTests
     {
         [Test]
-        void FailingTest()
+        public void FailingTest()
         {
             Assert.AreEqual(true, false);
         }
 
         [Test]
-        void SucceedingTest()
+        public void SucceedingTest()
         {
             Assert.AreEqual(true, true);
         }
 
         [Test]
-        void InconclusiveTest()
+        public void InconclusiveTest()
         {
             Assert.Inconclusive();
         }
